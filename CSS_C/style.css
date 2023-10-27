@@ -1,0 +1,29 @@
+.cad div{
+    align-items: center;
+    border-radius: 15px;
+}
+/* do arquivo index.php */
+
+
+.edit{
+    text-align: center;
+}
+
+.rad {
+    border-radius: 10px;
+}
+
+.btn{
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(90%, -790%);
+    background-color: rgb(0, 255, 4);  
+    
+
+}
+.btn a{
+    color: #fff;
+}
+
+

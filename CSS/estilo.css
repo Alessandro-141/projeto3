@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(0, 166, 255) !important;
+    color: white;
+    font-family: arial;
+}
+
+
+
+/* index.php */
+.box{
+    color: #fff;
+    padding:  40px 15px;
+    text-align: center;
+}
+
+#pag{
+    color: #fff;
+}
+
+fieldset{
+    transform: translate(130%, 50%);
+    width: 400px;
+    /*margin: 150px auto 0px auto; /* Centralizando */
+    
+}
+
+
+
+/* Aqui cuidar a lógica posso modificar 2 arquivos juntos 
+div#form-body h1, div#form-body-cad h1{ } */
+
+   
+input{
+    outline: none;
+    display: block;
+    height: 25px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;/* borda preta*/
+    font-size: 16pt;
+    padding: 10px 20px;
+    color: 	white;
+    background-color: rgba(255, 255, 255, 0.01);/* para deixar transparente */
+    
+}
+ 
+    
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color: #FF0066;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    
+    
+}
+/* css do placeholder */
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+/* No arquivo function.php */
+.oi {
+    color: #fff;
+    padding:  40px 15px;
+    text-align: center;
+}
+
+#compara {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+}
+
